@@ -1,0 +1,5 @@
+.bg-img {
+  background-image: url('../../public/signup_bg_img.jpeg');
+  background-repeat: no-repeat;
+  /* background-size: 100vh; */
+}

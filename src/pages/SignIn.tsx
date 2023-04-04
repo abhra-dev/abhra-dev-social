@@ -1,4 +1,4 @@
-import { Image, LockOutlined } from "@mui/icons-material";
+import { LockOutlined } from "@mui/icons-material";
 import {
   Avatar,
   Box,
@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import brand_image from "../../public/login_logo_ad_social.svg";
 
-function Login() {
+function SignIn() {
   return (
     <Grid container>
       <Grid item sx={{ display: { sm: "none", md: "block" } }} md={6}>
@@ -85,7 +85,7 @@ function Login() {
                 <Link href="#" variant="body2">
                   {"Forgot password?"}
                 </Link>
-                <Link href="#" variant="body2">
+                <Link href="/signup" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Box>
@@ -97,4 +97,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignIn;
